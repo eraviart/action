@@ -508,7 +508,7 @@ function report(output_dir) {
         const ort_args = [
             'report',
             '-f',
-            'SpdxDocument',
+            'Opossum,SpdxDocument',
             '-i',
             '/out/evaluation-result.yml',
             '-o',
