@@ -13,7 +13,7 @@ inputs:
   rules:
     required: true
     description: 'A file or URL containing ort rules to detect license violations. See https://github.com/oss-review-toolkit/ort/blob/master/docs/file-rules-kts.md'
-    default: .https://raw.githubusercontent.com/eraviart/tortellini-action/main/hermine/rules.kts
+    default: https://raw.githubusercontent.com/eraviart/tortellini-action/main/hermine/rules.kts
   classifications:
     required: true
     description: 'A file or URL containing classes for each license. See https://github.com/oss-review-toolkit/ort/blob/master/docs/config-file-license-classifications-yml.md'
