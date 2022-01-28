@@ -52,7 +52,7 @@ export async function report(output_dir: string): Promise<void> {
     const ort_args = [
         'report',
         '-f',
-        'Opossum,SpdxDocument',
+        'EvaluatedModel,SpdxDocument',
         '-i',
         '/out/evaluation-result.yml',
         '-o',
