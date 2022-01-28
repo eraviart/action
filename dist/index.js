@@ -484,12 +484,12 @@ function evaluate(output_dir, config_dir) {
         const docker_args = docker_1.volume2dockerargs(volumes);
         const ort_args = [
             'evaluate',
-            '--package-curations-file',
-            '/config/curations.yml',
-            '--rules-file',
-            '/config/rules.kts',
-            '--license-classifications-file',
-            '/config/license-classifications.yml',
+            // '--package-curations-file',
+            // '/config/curations.yml',
+            // '--rules-file',
+            // '/config/rules.kts',
+            // '--license-classifications-file',
+            // '/config/license-classifications.yml',
             '-i',
             '/out/analyzer-result.yml',
             '-o',
